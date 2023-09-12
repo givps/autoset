@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0" />
+	<title>
+		Auto script VPS givpn
+	</title>
+	<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/givpn/givpn/master/favicon.ico">
+	<style>
+		body {
+			padding: 25px;
+			background-color: white;
+			color: black;
+			font-size: 25px;
+		}
+
+		.dark-mode {
+			background-color: black;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+<center>
+	<h1>givpn</h1>
+	<h2>Auto script VPS</h2>
+	<div>
+		<button onclick="darkMode()">Darkmode</button>
+	</div>
+	<script>
+		function darkMode() {
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+		}
+	</script>
+	</center>
+	</div>
+        <div class="footer">
+            <footer>
+		<p align="center">
+		
+            <a href="https://github.com/givpn/" target="_blank"><img src="https://img.shields.io/badge/link-Github-blue"></a>
+			<a href="https://t.me/givpn/" target="_blank"><img src="https://img.shields.io/badge/Chat-Telegram-blue"></a>
+			<a href="https://t.me/givpn_grup/" target="_blank"><img src="https://img.shields.io/badge/Grup-Telegram-blue"></a>
+			    </p>
+</div>
+		<p align="center">
+            <a href="https://paypal.me/givpn11" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-yellow"></a>
+			<a href="https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/qris-givpn.jpg" target="_blank"><img src="https://img.shields.io/badge/Donate-QRIS-red"></a>
+			<a href="https://www.blockchain.com/explorer/addresses/btc/3BE1deCJcuykuTHMzmrmNYgN51E24Hix8i" target="_blank"><img src="https://img.shields.io/badge/Donate-Bitcoin-orange"></a>
+			<a href="https://www.blockchain.com/explorer/addresses/eth/0x3eb09df9a72e8e333e202116ff3eb348b3ebf554" target="_blank"><img src="https://img.shields.io/badge/Donate-Ethereum-blue"></a>
+			    </p>
+            </footer>
+        </div>
+		<p align="center">
+  <a><img src="https://img.shields.io/badge/givpn-Auto_script_VPS%202023-blue" style="max-width:200%;">
+    </p>
+</body>
+</html>
