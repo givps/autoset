@@ -13,7 +13,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 # Download File Ohp
-wget https://github.com/givps/open-http-puncher/raw/main/ohpserver-linux32.zip
+wget https://github.com/givps/open-http-puncher/releases/download/1.0/ohpserver-linux32.zip
 unzip ohpserver-linux32.zip
 chmod +x ohpserver
 cp ohpserver /usr/local/bin/ohpserver
