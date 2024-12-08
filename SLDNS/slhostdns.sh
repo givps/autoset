@@ -9,10 +9,10 @@ rm nsdomain
 
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=givpn.my.id
+DOMAIN=ipgivpn.my.id
 SUB_DOMAIN=aot-${sub}.my.id
 NS_DOMAIN=aotns-${subsl}.my.id
-CF_ID=admin@givpn.my.id
+CF_ID=admin@ipgivpn.my.id
 CF_KEY=df51a369af75b0f37f90bb7bf025ee3d2cc54
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
 set -euo pipefail
