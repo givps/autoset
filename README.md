@@ -57,8 +57,8 @@
 - Auto-Reboot : [ON]<br>
 - IPv6 : [OFF]<br>
 - Autoreboot On 05.00 GMT +7<br>
-- Auto Delete Expired Accounts<br>
-- FEATURE Backup DELETE PERMANENT<br>
+- Auto Delete Expired Accounts<br><!--
+- FEATURE Backup DELETE PERMANENT<br>-->
 <br>
 
 # Install
