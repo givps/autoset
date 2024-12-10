@@ -10,8 +10,8 @@ rm nsdomain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=ipgivpn.my.id
-SUB_DOMAIN=aot-${sub}.${DOMAIN}.my.id
-NS_DOMAIN=aotns-${subsl}.${DOMAIN}.my.id
+SUB_DOMAIN=aot-${sub}.${DOMAIN}
+NS_DOMAIN=aotns-${subsl}.${DOMAIN}
 CF_ID=admin@ipgivpn.my.id
 CF_KEY=df51a369af75b0f37f90bb7bf025ee3d2cc54
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
